@@ -1,3 +1,5 @@
+package view;
+
 import dao.ProdutoDao;
 import model.Produto;
 
@@ -111,5 +113,4 @@ public class Main {
             JOptionPane.showMessageDialog(null, "Erro ao acessar o arquivo.");
         }
     }
-
 }
